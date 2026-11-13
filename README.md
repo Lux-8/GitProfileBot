@@ -1,3 +1,27 @@
 # GitProfileBot
 
-This bot will allow you to search GitHub profiles and get the information you need. It will help you if you need to reduce the time spent searching for certain accounts.
+Telegram-бот на Python от команды **Lux-8** для быстрого поиска пользователей GitHub и получения сводной информации об их профилях через GitHub REST API.
+
+## Возможности
+* Поиск профиля разработчика по никнейму.
+* Вывод основной статистики (количество репозиториев, подписчиков, описание профиля и ссылка).
+* Экономия времени при поиске и проверке аккаунтов.
+
+## Стек технологий
+* **Python 3**
+* **GitHub REST API** (`requests` / `aiohttp`)
+* Библиотека для Telegram Bot API (`aiogram` / `pyTelegramBotAPI`)
+
+## Запуск проекта
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com
+   ```
+2. Установите зависимости:
+   ```bash
+   pip install requests pyTelegramBotAPI
+   ```
+3. Укажите токен вашего бота в переменных окружения (или в конфигурационном файле) и запустите скрипт:
+   ```bash
+   python bot.py
+   ```
